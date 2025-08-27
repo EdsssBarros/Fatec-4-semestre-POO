@@ -9,8 +9,14 @@ public class Retangulo {
     public void setAltura(double a){
         altura = a;
     }
+    public double getAltura(){
+        return(altura);
+    }
     public void setBase(double b){
         base = b;
+    }
+    public double getBase(){
+        return(base);
     }
     public double calcArea(){
         return (altura * base);
