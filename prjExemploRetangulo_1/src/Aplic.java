@@ -14,9 +14,10 @@ public class Aplic {
         objRet.setAltura(5.0);
         objRet.setBase(8.0);
         
-        System.out.println("Medida da altura do Retângulo" + obj.getAltura());
-        System.out.println("Medida da base do Retângulo: " + obj.getBase());
+        System.out.println("Medida da altura do Retângulo" + objRet.getAltura());
+        System.out.println("Medida da base do Retângulo: " + objRet.getBase());
         System.out.println("Medida da área: " + objRet.calcArea());
         System.out.println("Medida do perímetro " + objRet.calcPerimetro());
+        System.out.println("Medida da diagonal " + objRet.calcPerimetro());
     }
 }
