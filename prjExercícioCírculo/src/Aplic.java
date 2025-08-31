@@ -14,7 +14,17 @@ public class Aplic {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Definição do ponteiro
+        Circulo objCirc;
+
+        //Instanciação (alocação) de um objeto da classe Circulo
+        objCirc = new Circulo();
+
+        objCirc.setRaio(5);
+
+        System.out.println("Medida do raio do Círculo = " + objCirc.getRaio());
+        System.out.println("Medida da área do Círculo = " + objCirc.calcArea());
+        System.out.println("Medida do perímetro do Círculo = " + objCirc.calcPerimetro());
+        System.out.println("Medida do diâmetro do Círculo = " + objCirc.calcDiametro());
     }
-    
 }
