@@ -26,19 +26,19 @@ public class Aplic {
 
         int opcao;
 
-        System.out.println("Digite o RA do aluno: ");
+        System.out.print("Digite o RA do aluno: ");
         objAluno.setRA(sc.nextInt());
 
-        System.out.println("Digite a nota da prova 1: ");
+        System.out.print("Digite a nota da prova 1: ");
         objAluno.setNtPrv1(sc.nextDouble());
 
-        System.out.println("Digite a nota da prova 2: ");
+        System.out.print("Digite a nota da prova 2: ");
         objAluno.setNtPrv2(sc.nextDouble());
 
-        System.out.println("Digite a nota do trabalho 1: ");
+        System.out.print("Digite a nota do trabalho 1: ");
         objAluno.setNtTrab1(sc.nextDouble());
 
-        System.out.println("Digite a nota do trabalho 2: ");
+        System.out.print("Digite a nota do trabalho 2: ");
         objAluno.setNtTrab2(sc.nextDouble());
 
         do{
@@ -47,7 +47,7 @@ public class Aplic {
         System.out.println("2 - Exibir Média dos Trabalhos/Provas");
         System.out.println("3 - Exibir Média Final");
         System.out.println("4 - Sair");
-        System.out.println("Digite uma opção: ");
+        System.out.print("Digite uma opção: ");
 
         opcao = sc.nextInt();
 
