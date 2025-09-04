@@ -18,7 +18,7 @@ public class Aplic {
         //criação do ponteiro,
         //instanciação(alocação) de um objeto da classe Retangulo
         //e chamada do método construtor       
-        
+        Retangulo objRet = new Retangulo(unidade);
         
         
 	System.out.print("Digite a medida da altura do retângulo: ");
@@ -38,17 +38,21 @@ public class Aplic {
             System.out.print("\n\t\tDigite a opção: ");
             opcao = entrada.nextInt(); //scanf("%d", &opcao);
             
-			System.out.println("\n\nMedida da altura do retângulo: " + objRet.getAltura());
-            System.out.println("Medida da base do retângulo: " + objRet.getBase());
+            System.out.println("\n\nMedida da altura do retângulo: " 
+                    + objRet.getAltura() + objRet.getunidadeMedida());
+            System.out.println("Medida da base do retângulo: " 
+                    + objRet.getBase() + objRet.getunidadeMedida());
             if (opcao == 1){
-                System.out.println("Medida da área: " + objRet.calcArea());
+                System.out.println("Medida da área: " + objRet.calcArea()+ objRet.getunidadeMedida() + "²");
             }else
                if (opcao == 2){
-                   System.out.println("Medida do perímetro: " + objRet.calcPerimetro());       
+                   System.out.println("Medida do perímetro: " + objRet.calcPerimetro()
+                           + objRet.getunidadeMedida());       
                }else
                   if (opcao == 3){
-                      System.out.println("Medida da diagonal: " + objRet.calcDiagonal());
+                      System.out.println("Medida da diagonal: " + objRet.calcDiagonal()
+                      + objRet.getunidadeMedida());
                   } 
-        }while(opcao < 4);        
-    }        
+        }while(opcao < 4);
+    }
 }

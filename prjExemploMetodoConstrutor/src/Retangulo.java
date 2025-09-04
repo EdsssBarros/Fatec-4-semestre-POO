@@ -5,8 +5,12 @@
 public class Retangulo {
     private double altura;
     private double base;
+    private String unidadeMedida;
     
     //Definição do método construtor
+    public Retangulo (String uniMed){
+        unidadeMedida = uniMed;
+    }
     
     
     public void setAltura(double a){
@@ -19,8 +23,11 @@ public class Retangulo {
         return(altura);
     }    
     public double getBase(){
-        return(base);        
+        return(base);   
     } 
+    public String getunidadeMedida(){
+        return (unidadeMedida);
+    }
     public double calcArea(){
         return(base * altura);
     }
