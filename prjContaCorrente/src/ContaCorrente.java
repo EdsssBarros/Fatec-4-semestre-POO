@@ -9,5 +9,24 @@
  * @author edson.barros
  */
 public class ContaCorrente {
-    
+
+    private int numero;
+    private double saldo;
+
+    public ContaCorrente(int botaNumero, double botaSaldo){
+        numero = botaNumero;
+        saldo = botaSAldo;
+    }
+
+    public int getNumero(){
+        return (numero);
+    }
+
+    public double getSaldo(){
+        return (saldo);
+    }
+
+    public void sacar (double valor){
+        saldo -= valor;
+    }
 }
