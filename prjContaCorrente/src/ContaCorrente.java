@@ -15,7 +15,7 @@ public class ContaCorrente {
 
     public ContaCorrente(int botaNumero, double botaSaldo){
         numero = botaNumero;
-        saldo = botaSAldo;
+        saldo = botaSaldo;
     }
 
     public int getNumero(){
@@ -28,5 +28,9 @@ public class ContaCorrente {
 
     public void sacar (double valor){
         saldo -= valor;
+    }
+    
+    public void depositar (double deposito){
+        saldo =+ 
     }
 }
