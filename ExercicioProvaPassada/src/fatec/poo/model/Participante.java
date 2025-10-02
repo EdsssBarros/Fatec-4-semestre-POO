@@ -10,5 +10,28 @@ package fatec.poo.model;
  * @author edson.barros
  */
 public class Participante {
-    
+    private String email;
+    private double valorPalestra;
+    private boolean presenca;
+
+    public Participante(String c, String n, String e){
+        super(c, n);
+        email = e;
+    }
+
+    public void setValorPalestra(double v){
+        valorPalestra = v;
+    }
+
+    public void setPresenca(boolean p){
+        presenca = p;
+    }
+
+    public String getEmail(){
+        return(email);
+    }
+
+    public double getValorPalestra(){
+        return(valorPalestra);
+    }
 }

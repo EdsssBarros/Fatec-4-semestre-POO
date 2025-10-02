@@ -10,5 +10,20 @@ package fatec.poo.model;
  * @author edson.barros
  */
 public class Pessoa {
-    
+
+    private String cpf;
+    private String nome;
+
+    public Pessoa(String c, String n){
+        cpf = c;
+        nome = n
+    }
+
+    public String getCpf(){
+        return(cpf);
+    }
+
+    public String getNome(){
+        return(nome);
+    }    
 }

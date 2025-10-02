@@ -10,5 +10,29 @@ package fatec.poo.model;
  * @author edson.barros
  */
 public class Palestrante {
-    
+
+    private String temaPalestra;
+    private double taxaCobranca;
+    private double totalReceber;
+
+    public Palestrante(String c, String n, String pt){
+        super(c, n);
+        temaPalestra = pt;
+    }
+
+    public void setTaxaCobranca(double tc){
+        taxaCobranca = tc;
+    }
+
+    public double getTaxaCobranca(){
+        return(taxaCobranca);
+    }
+
+    public double getTotalReceber(){
+        return(totalReceber);
+    }
+
+    public void addValorReceber(double vp){
+        totalReceber = totalReceber + (vp * taxaCobranca);
+    }
 }
