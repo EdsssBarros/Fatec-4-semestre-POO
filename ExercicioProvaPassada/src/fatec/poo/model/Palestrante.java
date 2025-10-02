@@ -9,7 +9,7 @@ package fatec.poo.model;
  *
  * @author edson.barros
  */
-public class Palestrante {
+public class Palestrante extends Pessoa{
 
     private String temaPalestra;
     private double taxaCobranca;

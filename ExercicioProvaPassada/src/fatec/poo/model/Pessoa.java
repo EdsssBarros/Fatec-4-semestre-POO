@@ -16,7 +16,7 @@ public class Pessoa {
 
     public Pessoa(String c, String n){
         cpf = c;
-        nome = n
+        nome = n;
     }
 
     public String getCpf(){
