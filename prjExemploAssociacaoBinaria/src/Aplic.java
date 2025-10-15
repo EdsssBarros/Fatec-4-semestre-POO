@@ -35,14 +35,22 @@ public class Aplic {
         //com um objeto da classe Departamento
         
         funcHor.setDepartamento(dep1);
-        System.out.println("O funcionário horista " + funcHor.getNome() + "trabalha no departamento" + 
+        System.out.println("O funcionário horista " + funcHor.getNome() + " trabalha no departamento " + 
                 funcHor.getDepartamento().getNome());
     
         //Estabelece a associação entre um objeto da classse FuncionárioMensalista
         //com um objeto da classe Departamento
+        
+        funcMen.setDepartamento(dep1);
+        System.out.println("O funcionário mensalista " + funcMen.getNome() + " trabalha no departamento " + 
+                funcMen.getDepartamento().getNome());
     
         //Estabelece a associação entre um objeto da classse FuncionárioComissionado
         //com um objeto da classe Departamento
+        
+        funcCom.setDepartamento(dep2);
+        System.out.println("O funcionário comissionado " + funcCom.getNome() + " trabalha no departamento de " +
+                funcCom.getDepartamento().getNome());
     
         //Estabelece a associação entre um objeto da classe Departamento com
         //um objeto das classes FuncionarioHorista e FuncionarioMensalista
