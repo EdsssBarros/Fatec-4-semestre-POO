@@ -57,11 +57,11 @@ public class Consulta {
     
     public void addMedicacao(Medicacao m){
         medicacoes.add(m);
-        m.setMedicacao(this);
+        m.setConsulta(this);
     }
     
     public void addExame(Exame e){
         exames.add(e);
-        e.setExame(this);
+        e.setConsulta(this);
     }
 }

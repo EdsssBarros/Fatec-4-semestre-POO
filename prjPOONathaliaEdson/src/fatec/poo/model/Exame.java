@@ -54,7 +54,7 @@ public class Exame {
         return codigo;
     }
     
-    public void setExame(Consulta consulta){
+    public void setConsulta(Consulta consulta){
         this.consulta = consulta;
     }
 }

@@ -35,7 +35,7 @@ public class Medicacao {
         return nome;
     }
     
-    public void setMedicacao(Consulta consulta){
+    public void setConsulta (Consulta consulta){
         this.consulta = consulta;
     }
 }
