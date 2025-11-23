@@ -62,6 +62,5 @@ public class Consulta {
     
     public void addExame(Exame e){
         exames.add(e);
-        e.setConsulta(this);
     }
 }

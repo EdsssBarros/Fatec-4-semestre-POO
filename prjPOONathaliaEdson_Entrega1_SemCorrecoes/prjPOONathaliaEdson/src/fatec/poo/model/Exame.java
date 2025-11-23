@@ -57,8 +57,4 @@ public class Exame {
     public int getCodigo() {
         return codigo;
     }
-    
-    public Consulta getConsulta() {
-        return consulta;
-    }
 }

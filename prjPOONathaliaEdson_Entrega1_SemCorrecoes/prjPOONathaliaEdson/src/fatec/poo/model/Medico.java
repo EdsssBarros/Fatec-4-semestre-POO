@@ -28,6 +28,5 @@ public class Medico extends Pessoa {
     
     public void addConsulta (Consulta c){
         consultas.add(c); 
-        c.setMedico(this);
     }
 }
