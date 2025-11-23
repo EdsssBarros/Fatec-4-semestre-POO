@@ -1,0 +1,41 @@
+package fatec.poo.model;
+
+/**
+ *
+ * @author Nathalia, Edson
+ */
+public class Pessoa {
+    private String cpf;
+    private String nome;
+    private String endereco;
+    private String telefone;
+
+    public Pessoa(String cpf, String nome) {
+        this.cpf = cpf;
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+}
