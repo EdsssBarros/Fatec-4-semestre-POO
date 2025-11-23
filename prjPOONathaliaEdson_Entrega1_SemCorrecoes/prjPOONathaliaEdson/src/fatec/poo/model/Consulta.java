@@ -57,7 +57,6 @@ public class Consulta {
     
     public void addMedicacao(Medicacao m){
         medicacoes.add(m);
-        m.setConsulta(this);
     }
     
     public void addExame(Exame e){
