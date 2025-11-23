@@ -34,8 +34,4 @@ public class Medicacao {
     public String getNome() {
         return nome;
     }
-    
-    public void setConsulta (Consulta consulta){
-        this.consulta = consulta;
-    }
 }
